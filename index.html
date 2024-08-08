@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Onchain Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF9900; /* Bitcoin orange */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #FF9900;
+            font-weight: bold;
+            display: inline-block;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            cursor: pointer; /* Make cursor a pointer to indicate clickability */
+        }
+        .gallery img:hover {
+            opacity: 0.8; /* Add a hover effect */
+        }
+        .thumbnails {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: 0;
+        }
+        .thumbnails a {
+            flex: 1 1 calc(33.333% - 20px); /* 3 items per row with space between */
+            text-align: center;
+        }
+        .thumbnails img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .thumbnails a {
+                flex: 1 1 calc(50% - 20px); /* 2 items per row on small screens */
+            }
+        }
+        @media (max-width: 480px) {
+            .thumbnails a {
+                flex: 1 1 100%; /* 1 item per row on extra small screens */
+            }
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        #contact {
+            margin-bottom: 80px; /* Add extra margin at the bottom */
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Fullscreen modal for images */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.9);
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+        .modal-content:hover {
+            opacity: 0.8;
+        }
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: #999;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bitcoin Onchain Analysis</h1>
+        <p>Welcome to my personal webpage!</p>
+    </header>
+    <nav>
+        <a href="#charts">Onchain Metrics</a>
+        <a href="#articles">Articles</a>
+        <a href="#pictures">Selfmade Pictures</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="charts">
+        <h2>Charts</h2>
+        <p>Click on the image to view the interactive chart:</p>
+        <a href="plot.html">
+            <img src="active_realized_price.png" alt="Chart" style="width: 100%;">
+        </a>
+    </section>
+    <section id="articles">
+        <h2>Articles</h2>
+        <p>Interesting articles and my publications on Substack and X:</p>
+        <div class="thumbnails">
+            <a href="https://x.com/_Now_I_Know/status/1811400181188853984" target="_blank">
+                <img src="artikel_mvrv.png" alt="MVRV_RealizedPrice_BTCprice">
+            </a>
+            <a href="https://x.com/_Now_I_Know/status/1695146446926778593" target="_blank">
+                <img src="artikel_available_supply_MA.png" alt="Available_Supply_MA">
+            </a>
+            <a href="https://x.com/_Now_I_Know/status/1713955961415635434" target="_blank">
+                <img src="Available_Supply_BTC_Dollars.png" alt="Available_Supply">
+            </a>
+        </div>
+    </section>
+    <section id="pictures">
+        <h2>Selfmade AI Pictures:</h2>
+        <div class="gallery">
+            <!-- Example AI Picture -->
+            <img src="thebull.png" alt="Selfmade AI Picture" onclick="openModal(this)">
+            <img src="BTCFerrari.png" alt="Selfmade AI Picture" onclick="openModal(this)">
+            <img src="BTCrocket.png" alt="Selfmade AI Picture" onclick="openModal(this)">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Follow me on: <a href="https://x.com/_Now_I_Know" target="_blank">_Now_I_Know</a></p>
+        <h3>Support me with Bitcoin (Lightning):</h3>
+        <p>Wallet Address: <strong>now_i_know@walletofsatoshi.com</strong></p>
+        <img src="now_i_know@walletofsatoshi.com_lighting.jpeg" alt="Bitcoin QR Code" style="max-width:200px;">
+    </section>
+    <footer>
+        <p>&copy; 2024 NIK</p>
+    </footer>
+
+    <!-- Fullscreen Modal for Images -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        // Fullscreen image modal functionality
+        function openModal(element) {
+            var modal = document.getElementById("myModal");
+            var modalImg = document.getElementById("img01");
+            modal.style.display = "block";
+            modalImg.src = element.src;
+            document.getElementById("caption").innerHTML = element.alt;
+        }
+
+        function closeModal() {
+            var modal = document.getElementById("myModal");
+            modal.style.display = "none";
+        }
+
+        // Add download functionality
+        document.getElementById("img01").addEventListener('click', function() {
+            var link = document.createElement('a');
+            link.href = this.src;
+            link.download = this.alt;
+            link.click();
+        });
+    </script>
+</body>
+</html>
