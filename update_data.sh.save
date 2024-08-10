@@ -1,0 +1,32 @@
+cd "$(dirname "$0")"#!/bin/bash
+
+# Zorg ervoor dat je in de directory bent waar het script staat
+cd "$(dirname "$0")"
+
+# Update de data (dit deel hangt af van hoe je de data ophaalt)
+# Bijvoorbeeld: python update_data.py
+
+# Voeg de wijzigingen toe aan de staging area
+git add .
+
+# Commit de wijzigingen met een beschrijvend bericht
+git commit -m "Updated data files with latest information"
+
+# Push de wijzigingen naar GitHub
+git push origin main
+#!/bin/bash
+
+# Navigeren naar de repository
+cd /Users/kimgrifhorst/Desktop/final\ charts\ 2024/repository/Now_I_Know
+
+# Update de data (dit deel hangt af van hoe je de data ophaalt)
+# Bijvoorbeeld: python update_data.py
+
+# Voeg de wijzigingen toe aan de staging area
+git add .
+
+# Commit de wijziginkgen met een beschrijvend bericht
+git commit -m "Updated data files with latest information"
+
+# Push de wijzigingen naar GitHub
+git push origin main
