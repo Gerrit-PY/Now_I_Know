@@ -3,13 +3,13 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Load the JSON data for Active_MVRV, Active_Realized_Price, and BTC Price
-with open('Active_MVRV_data.json', 'r') as file:
+with open('Active_MVRV.json', 'r') as file:
     active_mvrv_data = json.load(file)
 
-with open('Active_Realized_Price_data.json', 'r') as file:
+with open('Active_Realized_Price.json', 'r') as file:
     active_realized_price_data = json.load(file)
 
-with open('Price_data.json', 'r') as file:
+with open('Price.json', 'r') as file:
     btc_price_data = json.load(file)
 
 # Convert to DataFrames
@@ -103,6 +103,9 @@ fig.update_layout(
 fig.data[0].update(yaxis='y2')
 fig.data[1].update(yaxis='y2')
 fig.data[2].update(yaxis='y2')
+
+# Save the plot as a PNG file in the desired directory
+fig.write_image("/Users/kimgrifhorst/Desktop/final\ charts\ 2024/repository/Now_I_Know/active_mvrv_price.png")
 
 # Show the plot
 fig.show()

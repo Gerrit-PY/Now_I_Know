@@ -1,4 +1,4 @@
-Last login: Sat Aug 10 13:50:01 on ttys003
+Last login: Sat Aug 10 22:34:24 on ttys002
 
 The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
@@ -67,7 +67,10 @@ Password:
 cd /Users/kimgrifhorst/Desktop/final\ charts\ 2024/repository/Now_I_Know
 
 # Update de data (dit deel hangt af van hoe je de data ophaalt)
-# Bijvoorbeeld: python update_data.py
+python3 Active_MVRV_Price_api2.py
+
+# Maak een html grafiek van de python grafiek en pas de afbeelding voor de grafiek aan
+python3 Active_MVRV_Price2.py
 
 # Voeg de wijzigingen toe aan de staging area
 git add .
@@ -77,9 +80,6 @@ git commit -m "Updated data files with latest information"
 
 # Push de wijzigingen naar GitHub
 git push origin main
-
-
-
 
 
 
