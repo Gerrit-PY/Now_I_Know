@@ -22765,12 +22765,24 @@
             "date": "2024-08-07"
         },
         {
-            "Active_MVRV": 1.1392100326,
+            "Active_MVRV": 1.1389644754,
             "date": "2024-08-08"
         },
         {
-            "Active_MVRV": 1.1845055085,
+            "Active_MVRV": 1.1846525322,
             "date": "2024-08-09"
+        },
+        {
+            "Active_MVRV": 1.182377637,
+            "date": "2024-08-10"
+        },
+        {
+            "Active_MVRV": 1.1767227427,
+            "date": "2024-08-11"
+        },
+        {
+            "Active_MVRV": 1.1478620039,
+            "date": "2024-08-12"
         }
     ],
     "message": "Data query was successful"

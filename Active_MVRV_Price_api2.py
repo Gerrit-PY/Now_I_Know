@@ -7,7 +7,7 @@ url = "https://researchbitcoin.net/bitlab-api"
 token = "5095e872-71de-44c1-93df-7716b5b687db"  # Replace with your actual token
 
 # Define the list of data fields you want to request
-data_fields = ["Active_Realized_Price", "Active_MVRV", "Price"]  # Add more fields as needed
+data_fields = ["Active_Realized_Price", "Active_MVRV", "Price", "MVRV_Z", "RealizedPrice"]  # Add more fields as needed
 
 # Define the directory where the data should be saved
 output_directory = '/Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/'
