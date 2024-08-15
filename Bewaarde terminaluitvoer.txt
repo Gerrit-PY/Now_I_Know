@@ -110,6 +110,56 @@ To https://github.com/Gerrit-PY/Now_I_Know.git
 air-van-kim:bin kimgrifhorst$ cd /usr/local/bin/
 air-van-kim:bin kimgrifhorst$ sudo nano update_data
 Password:
+air-van-kim:bin kimgrifhorst$ update_data
+Saving files to: /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/
+Success! Retrieved data for Active_Realized_Price.
+Attempting to save data to: /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Active_Realized_Price.json
+Old file /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Active_Realized_Price.json removed.
+Data has been saved to /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Active_Realized_Price.json
+Success! Retrieved data for Active_MVRV.
+Attempting to save data to: /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Active_MVRV.json
+Old file /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Active_MVRV.json removed.
+Data has been saved to /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Active_MVRV.json
+Success! Retrieved data for Price.
+Attempting to save data to: /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Price.json
+Old file /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Price.json removed.
+Data has been saved to /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/Price.json
+Success! Retrieved data for MVRV_Z.
+Attempting to save data to: /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/MVRV_Z.json
+Old file /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/MVRV_Z.json removed.
+Data has been saved to /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/MVRV_Z.json
+Success! Retrieved data for RealizedPrice.
+Attempting to save data to: /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/RealizedPrice.json
+Old file /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/RealizedPrice.json removed.
+Data has been saved to /Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/RealizedPrice.json
+/Library/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/kimgrifhorst/Desktop/final charts 2024/repository/Now_I_Know/MVRV_Z_Realized_Price2.py': [Errno 2] No such file or directory
+[*********************100%%**********************]  1 of 1 completed
+[main be59962] Updated data files with latest information
+ Committer: Kim Grifhorst <kimgrifhorst@air-van-kim.home>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 95 insertions(+), 6 deletions(-)
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 110.27 KiB | 7.88 MiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), completed with 6 local objects.
+To https://github.com/Gerrit-PY/Now_I_Know.git
+   57387ca..be59962  main -> main
+air-van-kim:bin kimgrifhorst$ cd /usr/local/bin/
+air-van-kim:bin kimgrifhorst$ sudo nano update_data
 
   UW PICO 5.09                                                                                 File: update_data                                                                                  Modified  
 
@@ -124,7 +174,7 @@ python3 Active_MVRV_Price_api2.py
 # Maak een html grafiek van de python grafiek en pas de afbeelding voor de grafiek aan
 python3 Active_MVRV_Price2.py
 
-python3 MVRV_Z_Realized_Price2.py
+python3 mvrv_z_btc_realizedp2.py
 
 python3 available_supply_2024_2.py
 
