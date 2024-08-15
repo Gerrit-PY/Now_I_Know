@@ -1,4 +1,4 @@
-Last login: Tue Aug 13 20:38:32 on ttys001
+Last login: Wed Aug 14 13:52:42 on ttys001
 
 The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
@@ -22,7 +22,7 @@ Password:
 
 
 
-  UW PICO 5.09                   File: update_data                    Modified  
+  UW PICO 5.09                                                                                 File: update_data                                                                                  Modified  
 
 #!/bin/bash
 
@@ -32,11 +32,16 @@ cd /Users/kimgrifhorst/Desktop/final\ charts\ 2024/repository/Now_I_Know
 # Update de data (dit deel hangt af van hoe je de data ophaalt)
 python3 Active_MVRV_Price_api2.py
 
-# Maak een html grafiek van de python grafiek en pas de afbeelding voor de graf$
+# Maak een html grafiek van de python grafiek en pas de afbeelding voor de grafiek aan
 python3 Active_MVRV_Price2.py
 
-# Maak een html grafiek van de python grafiek en pas de afbeelding voor de graf$
-python3 MVR_Z_Realized_Price2.py                  
+python3 MVR_Z_Realized_Price2.py                                                
+
+python3 available_supply_2024_2.py
+
+python3 gewogen_gemiddelden_1tm5_jaar2.py
+
+python3 gewogen_gemiddelde_short_time2.py
 
 # Voeg de wijzigingen toe aan de staging area
 git add .
@@ -44,5 +49,39 @@ git add .
 # Commit de wijzigingen met een beschrijvend bericht
 git commit -m "Updated data files with latest information"
 
-^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
-^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
+# Push de wijzigingen naar GitHub
+git push origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help                       ^O WriteOut                       ^R Read File                      ^Y Prev Pg                        ^K Cut Text                       ^C Cur Pos                        
+^X Exit                           ^J Justify                        ^W Where is                       ^V Next Pg                        ^U UnCut Text                     ^T To Spell                      

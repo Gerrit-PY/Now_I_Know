@@ -22783,6 +22783,14 @@
         {
             "Active_MVRV": 1.1478620039,
             "date": "2024-08-12"
+        },
+        {
+            "Active_MVRV": 1.1644607035,
+            "date": "2024-08-13"
+        },
+        {
+            "Active_MVRV": 1.1703646677,
+            "date": "2024-08-14"
         }
     ],
     "message": "Data query was successful"

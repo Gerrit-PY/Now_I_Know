@@ -22783,6 +22783,14 @@
         {
             "Active_Realized_Price": 51370.8702198686,
             "date": "2024-08-12"
+        },
+        {
+            "Active_Realized_Price": 51364.291313464,
+            "date": "2024-08-13"
+        },
+        {
+            "Active_Realized_Price": 51362.9857910359,
+            "date": "2024-08-14"
         }
     ],
     "message": "Data query was successful"
