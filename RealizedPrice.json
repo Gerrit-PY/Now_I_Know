@@ -22783,6 +22783,34 @@
         {
             "RealizedPrice": 31382.9336008432,
             "date": "2024-08-14"
+        },
+        {
+            "RealizedPrice": 31375.529980037,
+            "date": "2024-08-15"
+        },
+        {
+            "RealizedPrice": 31376.5695055169,
+            "date": "2024-08-16"
+        },
+        {
+            "RealizedPrice": 31378.2011160744,
+            "date": "2024-08-17"
+        },
+        {
+            "RealizedPrice": 31382.6206144492,
+            "date": "2024-08-18"
+        },
+        {
+            "RealizedPrice": 31381.4823002069,
+            "date": "2024-08-19"
+        },
+        {
+            "RealizedPrice": 31382.0086039847,
+            "date": "2024-08-20"
+        },
+        {
+            "RealizedPrice": 31392.4596574708,
+            "date": "2024-08-21"
         }
     ],
     "message": "Data query was successful"
