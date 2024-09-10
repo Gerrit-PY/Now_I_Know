@@ -22819,6 +22819,82 @@
         {
             "Active_Realized_Price": 51424.5592343473,
             "date": "2024-08-21"
+        },
+        {
+            "Active_Realized_Price": 51454.1905124029,
+            "date": "2024-08-22"
+        },
+        {
+            "Active_Realized_Price": 51518.1165484289,
+            "date": "2024-08-23"
+        },
+        {
+            "Active_Realized_Price": 51567.4141928577,
+            "date": "2024-08-24"
+        },
+        {
+            "Active_Realized_Price": 51586.8771437536,
+            "date": "2024-08-25"
+        },
+        {
+            "Active_Realized_Price": 51644.8425816971,
+            "date": "2024-08-26"
+        },
+        {
+            "Active_Realized_Price": 51606.9503575231,
+            "date": "2024-08-27"
+        },
+        {
+            "Active_Realized_Price": 51581.1933852241,
+            "date": "2024-08-28"
+        },
+        {
+            "Active_Realized_Price": 51627.2007470923,
+            "date": "2024-08-29"
+        },
+        {
+            "Active_Realized_Price": 51632.4770376496,
+            "date": "2024-08-30"
+        },
+        {
+            "Active_Realized_Price": 51652.3324111099,
+            "date": "2024-08-31"
+        },
+        {
+            "Active_Realized_Price": 51648.1398998423,
+            "date": "2024-09-01"
+        },
+        {
+            "Active_Realized_Price": 51652.4680434198,
+            "date": "2024-09-02"
+        },
+        {
+            "Active_Realized_Price": 51645.774322753,
+            "date": "2024-09-03"
+        },
+        {
+            "Active_Realized_Price": 51648.7263596744,
+            "date": "2024-09-04"
+        },
+        {
+            "Active_Realized_Price": 51637.6675473256,
+            "date": "2024-09-05"
+        },
+        {
+            "Active_Realized_Price": 51615.2414560405,
+            "date": "2024-09-06"
+        },
+        {
+            "Active_Realized_Price": 51609.1453113585,
+            "date": "2024-09-07"
+        },
+        {
+            "Active_Realized_Price": 51616.0495430667,
+            "date": "2024-09-08"
+        },
+        {
+            "Active_Realized_Price": 51670.7551082217,
+            "date": "2024-09-09"
         }
     ],
     "message": "Data query was successful"
