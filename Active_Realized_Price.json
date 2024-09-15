@@ -22895,6 +22895,26 @@
         {
             "Active_Realized_Price": 51670.7551082217,
             "date": "2024-09-09"
+        },
+        {
+            "Active_Realized_Price": 51667.2073643169,
+            "date": "2024-09-10"
+        },
+        {
+            "Active_Realized_Price": 51663.4454630082,
+            "date": "2024-09-11"
+        },
+        {
+            "Active_Realized_Price": 51687.4494694968,
+            "date": "2024-09-12"
+        },
+        {
+            "Active_Realized_Price": 51750.6317115821,
+            "date": "2024-09-13"
+        },
+        {
+            "Active_Realized_Price": 51767.8535408046,
+            "date": "2024-09-14"
         }
     ],
     "message": "Data query was successful"

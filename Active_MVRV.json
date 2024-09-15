@@ -22895,6 +22895,26 @@
         {
             "Active_MVRV": 1.0783949092,
             "date": "2024-09-09"
+        },
+        {
+            "Active_MVRV": 1.1054845117,
+            "date": "2024-09-10"
+        },
+        {
+            "Active_MVRV": 1.101194889,
+            "date": "2024-09-11"
+        },
+        {
+            "Active_MVRV": 1.122532248,
+            "date": "2024-09-12"
+        },
+        {
+            "Active_MVRV": 1.135367511,
+            "date": "2024-09-13"
+        },
+        {
+            "Active_MVRV": 1.1598714863,
+            "date": "2024-09-14"
         }
     ],
     "message": "Data query was successful"
