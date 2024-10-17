@@ -4,7 +4,7 @@ import json
 
 # Define the API endpoint and token
 url = "https://researchbitcoin.net/bitlab-api"
-token = "5095e872-71de-44c1-93df-7716b5b687db"  # Replace with your actual token
+token = "24a15604-8525-4162-ae6f-9e5c21a82197"  # Replace with your actual token
 
 # Define the list of data fields you want to request
 data_fields = ["Active_Realized_Price", "Active_MVRV", "Price", "MVRV_Z", "RealizedPrice"]  # Add more fields as needed

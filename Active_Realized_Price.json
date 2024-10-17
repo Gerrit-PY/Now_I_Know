@@ -22927,6 +22927,122 @@
         {
             "Active_Realized_Price": 51833.2916809233,
             "date": "2024-09-17"
+        },
+        {
+            "Active_Realized_Price": 51873.8631399286,
+            "date": "2024-09-18"
+        },
+        {
+            "Active_Realized_Price": 51944.5762793949,
+            "date": "2024-09-19"
+        },
+        {
+            "Active_Realized_Price": 52028.5319053333,
+            "date": "2024-09-20"
+        },
+        {
+            "Active_Realized_Price": 52054.9934130886,
+            "date": "2024-09-21"
+        },
+        {
+            "Active_Realized_Price": 52075.818969092,
+            "date": "2024-09-22"
+        },
+        {
+            "Active_Realized_Price": 52144.0850285665,
+            "date": "2024-09-23"
+        },
+        {
+            "Active_Realized_Price": 52185.3757517531,
+            "date": "2024-09-24"
+        },
+        {
+            "Active_Realized_Price": 52255.0739796234,
+            "date": "2024-09-25"
+        },
+        {
+            "Active_Realized_Price": 52314.8842192164,
+            "date": "2024-09-26"
+        },
+        {
+            "Active_Realized_Price": 52371.3474755385,
+            "date": "2024-09-27"
+        },
+        {
+            "Active_Realized_Price": 52419.0266956748,
+            "date": "2024-09-28"
+        },
+        {
+            "Active_Realized_Price": 52440.8949637855,
+            "date": "2024-09-29"
+        },
+        {
+            "Active_Realized_Price": 52455.3059847597,
+            "date": "2024-09-30"
+        },
+        {
+            "Active_Realized_Price": 52459.9952824157,
+            "date": "2024-10-01"
+        },
+        {
+            "Active_Realized_Price": 52453.1636398844,
+            "date": "2024-10-02"
+        },
+        {
+            "Active_Realized_Price": 52450.7140462157,
+            "date": "2024-10-03"
+        },
+        {
+            "Active_Realized_Price": 52486.7108950673,
+            "date": "2024-10-04"
+        },
+        {
+            "Active_Realized_Price": 52504.9114553716,
+            "date": "2024-10-05"
+        },
+        {
+            "Active_Realized_Price": 52528.5291997411,
+            "date": "2024-10-06"
+        },
+        {
+            "Active_Realized_Price": 52568.5880469934,
+            "date": "2024-10-07"
+        },
+        {
+            "Active_Realized_Price": 52996.4059255576,
+            "date": "2024-10-08"
+        },
+        {
+            "Active_Realized_Price": 52948.2902750002,
+            "date": "2024-10-09"
+        },
+        {
+            "Active_Realized_Price": 52929.4245757074,
+            "date": "2024-10-10"
+        },
+        {
+            "Active_Realized_Price": 53061.584097783,
+            "date": "2024-10-11"
+        },
+        {
+            "Active_Realized_Price": 53092.5599026235,
+            "date": "2024-10-12"
+        },
+        {
+            "Active_Realized_Price": 53116.0382752968,
+            "date": "2024-10-13"
+        },
+        {
+            "Active_Realized_Price": 53182.1518413322,
+            "date": "2024-10-14"
+        },
+        {
+            "Active_Realized_Price": 53309.4752482797,
+            "date": "2024-10-15"
+        },
+        {
+            "Active_Realized_Price": 53375.2289206955,
+            "date": "2024-10-16"
         }
     ],
     "message": "Data query was successful"
